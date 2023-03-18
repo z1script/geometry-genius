@@ -38,10 +38,12 @@
           <h3>Rectangle</h3>
           <p>Area(A) = w &times; l</p>
           <p>
-            <input type="number" placeholder="w" /><span class="text-cm"
+            <input id="rectangle-inputW" type="number" placeholder="w" /><span
+              class="text-cm"
               >cm</span
             >
-            <input type="number" placeholder="l" /><span class="text-cm"
+            <input id="rectangle-inputL" type="number" placeholder="l" /><span
+              class="text-cm"
               >cm</span
             >
           </p>
@@ -52,12 +54,14 @@
           <h3>Parallelogram</h3>
           <p>Area(A) = b &times; h</p>
           <p>
-            <input type="number" placeholder="b" /><span class="text-cm"
-              >cm</span
-            >
-            <input type="number" placeholder="h" /><span class="text-cm"
-              >cm</span
-            >
+            <input
+              id="parallelogram-inputB"
+              type="number"
+              placeholder="b" /><span class="text-cm">cm</span>
+            <input
+              id="parallelogram-inputH"
+              type="number"
+              placeholder="h" /><span class="text-cm">cm</span>
           </p>
           <button id="btn-parallelogram" class="btn-calculate">
             Calculate
@@ -68,12 +72,14 @@
           <h3>Rhombus</h3>
           <p>Area(A) = 0.5 &times; d<sub>1</sub> &times; d<sub>2</sub></p>
           <p>
-            <input type="number" placeholder="d&#8321;" /><span class="text-cm"
-              >cm</span
-            >
-            <input type="number" placeholder="d&#8322;" /><span class="text-cm"
-              >cm</span
-            >
+            <input
+              id="rhombus-input1"
+              type="number"
+              placeholder="d&#8321;" /><span class="text-cm">cm</span>
+            <input
+              id="rhombus-input2"
+              type="number"
+              placeholder="d&#8322;" /><span class="text-cm">cm</span>
           </p>
           <button id="btn-rhombus" class="btn-calculate">Calculate</button>
         </div>
@@ -82,24 +88,28 @@
           <h3>Pentagon</h3>
           <p>Area(A) = 0.5 &times; p &times; b</p>
           <p>
-            <input type="number" placeholder="p" /><span class="text-cm"
+            <input id="pentagon-inputP" type="number" placeholder="p" /><span
+              class="text-cm"
               >cm</span
             >
-            <input type="number" placeholder="b" /><span class="text-cm"
+            <input id="pentagon-inputB" type="number" placeholder="b" /><span
+              class="text-cm"
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-pentagon" class="btn-calculate">Calculate</button>
         </div>
         <div class="card-container">
           <img src="images/ellipse.png" alt="Ellipse" />
           <h3>Ellipse</h3>
           <p>Area(A) = &pi;ab</p>
           <p>
-            <input type="number" placeholder="a" /><span class="text-cm"
+            <input id="ellipse-inputA" type="number" placeholder="a" /><span
+              class="text-cm"
               >cm</span
             >
-            <input type="number" placeholder="b" /><span class="text-cm"
+            <input id="ellipse-inputB" type="number" placeholder="b" /><span
+              class="text-cm"
               >cm</span
             >
           </p>
