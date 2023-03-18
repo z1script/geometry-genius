@@ -41,3 +41,12 @@ function setCalculation(name, value) {
     });
   }
 }
+
+function randomColor() {
+  let color = [];
+  for (let i = 0; i < 3; i++) {
+    color.push(Math.floor(Math.random() * 255));
+    console.log("rgba(" + color.join(", ") + ")");
+  }
+  return "rgb(" + color.join(", ") + ")";
+}

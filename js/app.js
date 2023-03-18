@@ -47,3 +47,11 @@ document.getElementById("btn-ellipse").addEventListener("click", function () {
   const value = toFixed(calculate);
   setCalculation("Ellipse", value);
 });
+
+const cards = document.getElementsByClassName("card-container");
+
+for (const card of cards) {
+  card.addEventListener("mouseenter", function () {
+    this.style.background = randomColor();
+  });
+}
