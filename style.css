@@ -129,6 +129,35 @@ header button {
   font-size: 1.5rem;
 }
 
+.area-container ol {
+  padding: 2rem 2.5rem;
+}
+
+.area-container ol li {
+  margin-bottom: 1rem;
+}
+
+.btn-convert {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  scale: 0.9;
+  font-family: "Lexend", sans-serif;
+  cursor: pointer;
+  background: #1090d8;
+}
+
+#value {
+  margin: 0 0.5rem;
+}
+
+.fa-solid {
+  font-size: 1.3rem;
+  margin-left: 10px;
+  color: darkred;
+}
+
 @media screen and (max-width: 696px) {
   header {
     width: 95%;
