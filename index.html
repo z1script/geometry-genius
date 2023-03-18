@@ -13,23 +13,25 @@
         <h1>Interactive</h1>
         <h3>Geometry Genius</h3>
       </section>
-      <button>Blog</button>
+      <a href="blog.html"><button id="btn-blog">Blog</button></a>
     </header>
     <main>
       <section class="geometry-container">
-        <div class="card-container">
+        <div id="triangle-card" class="card-container">
           <img src="images/triangle.png" alt="Triangle" />
           <h3>Triangle</h3>
           <p>Area(A) = 0.5 &times; b &times; h</p>
           <p>
-            <input type="number" placeholder="b" /><span class="text-cm"
+            <input id="triangle-inputB" type="number" placeholder="b" /><span
+              class="text-cm"
               >cm</span
             >
-            <input type="number" placeholder="h" /><span class="text-cm"
+            <input id="triangle-inputH" type="number" placeholder="h" /><span
+              class="text-cm"
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-triangle" class="btn-calculate">Calculate</button>
         </div>
         <div class="card-container">
           <img src="images/rectangle.png" alt="Rectangle" />
@@ -43,7 +45,7 @@
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-rectangle" class="btn-calculate">Calculate</button>
         </div>
         <div class="card-container">
           <img src="images/parallelogram.png" alt="Parallelogram" />
@@ -57,7 +59,9 @@
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-parallelogram" class="btn-calculate">
+            Calculate
+          </button>
         </div>
         <div class="card-container">
           <img src="images/rhombus.png" alt="Rhombus" />
@@ -71,7 +75,7 @@
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-rhombus" class="btn-calculate">Calculate</button>
         </div>
         <div class="card-container">
           <img src="images/pentagon.png" alt="Pentagon" />
@@ -99,12 +103,12 @@
               >cm</span
             >
           </p>
-          <button class="btn-calculate">Calculate</button>
+          <button id="btn-ellipse" class="btn-calculate">Calculate</button>
         </div>
       </section>
       <section class="area-container">
         <h3>Area Calculation</h3>
-        <div></div>
+        <ol id="area-field"></ol>
       </section>
     </main>
     <script src="js/utilities.js"></script>
