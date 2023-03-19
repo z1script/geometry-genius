@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geometry Genius</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/5df6411027.js"
       crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- header-starts -->
     <header>
       <section>
         <h1>Interactive</h1>
@@ -18,8 +20,11 @@
       </section>
       <a href="blog.html"><button id="btn-blog">Blog</button></a>
     </header>
+    <!-- main-starts -->
     <main>
+      <!-- geometry-container -->
       <section class="geometry-container">
+        <!-- card-container -->
         <div id="triangle-card" class="card-container">
           <img src="images/triangle.png" alt="Triangle" />
           <h3>Triangle</h3>
@@ -119,11 +124,13 @@
           <button id="btn-ellipse" class="btn-calculate">Calculate</button>
         </div>
       </section>
+      <!-- area-container -->
       <section class="area-container">
         <h3>Area Calculation</h3>
         <ol id="area-field"></ol>
       </section>
     </main>
+    <!-- JavaScript Linked -->
     <script src="js/utilities.js"></script>
     <script src="js/app.js"></script>
   </body>

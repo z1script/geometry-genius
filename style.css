@@ -11,6 +11,7 @@ body {
   font-family: "Lexend", sans-serif;
 }
 
+/* Header Styles */
 header {
   height: 130px;
   display: flex;
@@ -47,6 +48,7 @@ header button {
   color: white;
 }
 
+/* Main Styles */
 main {
   display: flex;
   justify-content: center;
@@ -59,6 +61,7 @@ main {
   gap: 1.5rem;
 }
 
+/* card-container styles */
 .card-container {
   border: 1px solid lightgray;
   text-align: center;
@@ -114,6 +117,7 @@ header button {
   cursor: pointer;
 }
 
+/* Area-Container Styles */
 .area-container {
   border: 1px solid lightgray;
   text-align: center;
@@ -158,9 +162,33 @@ header button {
   color: darkred;
 }
 
+.btn-cross {
+  cursor: pointer;
+}
+
+/* Blog Styles */
+.blogs {
+  width: 90%;
+  margin: 2rem auto;
+}
+.blogs h1 {
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.blogs h3 {
+  opacity: 0.9;
+}
+
+/* @media for mobile-devices (simple responsive) */
 @media screen and (max-width: 696px) {
   header {
     width: 95%;
+  }
+  header h1 {
+    font-size: 2rem;
   }
   body {
     margin: 3rem auto;
@@ -176,6 +204,7 @@ header button {
     margin: auto;
   }
 }
+/* @media for mid-device (simple responsive) */
 @media screen and (min-width: 697px) and (max-width: 1280px) {
   main {
     display: flex;

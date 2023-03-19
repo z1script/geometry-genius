@@ -49,7 +49,6 @@ document.getElementById("btn-ellipse").addEventListener("click", function () {
 });
 
 const cards = document.getElementsByClassName("card-container");
-
 for (const card of cards) {
   card.addEventListener("mouseenter", function () {
     this.style.background = randomColor();
