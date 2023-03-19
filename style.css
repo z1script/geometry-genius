@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed&family=Lexend&family=Open+Sans&family=Roboto&family=Work+Sans&display=swap");
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  margin: 3rem 4rem;
   font-family: "Lexend", sans-serif;
+  margin: 3rem 4rem;
 }
 
 /* Header Styles */
 header {
-  height: 130px;
-  display: flex;
-  width: 95%;
-  border-radius: 0.5rem;
-  margin: 3rem auto;
-  padding: 1rem 2rem;
-  justify-content: space-between;
   align-items: center;
   background-color: #108fd827;
+  border-radius: 0.5rem;
+  display: flex;
+  height: 130px;
+  justify-content: space-between;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  width: 95%;
 }
 
 header h1 {
@@ -30,18 +30,18 @@ header h1 {
 
 header button {
   background-color: #1090d8;
-  color: #ffffff;
+  border-radius: 0.5rem;
   border: none;
+  color: #ffffff;
   font-family: "Lexend", sans-serif;
   font-size: 1.5rem;
   height: 3rem;
   width: 6rem;
-  border-radius: 0.5rem;
 }
 
 #btn-blog a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 #btn-blog a:visited {
@@ -51,23 +51,23 @@ header button {
 /* Main Styles */
 main {
   display: flex;
-  justify-content: center;
   gap: 1.5rem;
+  justify-content: center;
 }
 
 .geometry-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* card-container styles */
 .card-container {
-  border: 1px solid lightgray;
-  text-align: center;
-  padding: 2.5rem 0;
   border-radius: 10px;
+  border: 1px solid lightgray;
   height: 500px;
+  padding: 2.5rem 0;
+  text-align: center;
   width: 400px;
 }
 
@@ -76,15 +76,15 @@ main {
 }
 
 .card-container input {
-  width: 100px;
-  margin: 1rem 0;
-  height: 2rem;
-  border: none;
-  font-size: 1rem;
-  font-family: "Lexend", sans-serif;
-  padding-left: 10px;
   background-color: rgba(211, 211, 211, 0.507);
   border-radius: 5px;
+  border: none;
+  font-family: "Lexend", sans-serif;
+  font-size: 1rem;
+  height: 2rem;
+  margin: 1rem 0;
+  padding-left: 10px;
+  width: 100px;
 }
 
 input::-webkit-outer-spin-button,
@@ -102,14 +102,14 @@ input::-webkit-inner-spin-button {
 
 .btn-calculate {
   background-color: #1090d8;
-  color: #ffffff;
+  border-radius: 0.5rem;
   border: none;
-  margin-top: 1rem;
+  color: #ffffff;
   font-family: "Lexend", sans-serif;
   font-size: 1.5rem;
   height: 3rem;
+  margin-top: 1rem;
   width: 20rem;
-  border-radius: 0.5rem;
 }
 
 .btn-calculate:hover,
@@ -119,18 +119,18 @@ header button {
 
 /* Area-Container Styles */
 .area-container {
-  border: 1px solid lightgray;
-  text-align: center;
-  padding: 2.5rem 0;
   border-radius: 10px;
+  border: 1px solid lightgray;
   height: 500px;
+  padding: 2.5rem 0;
+  text-align: center;
   width: 400px;
 }
 
 .area-container h3 {
-  text-decoration: underline;
-  opacity: 0.8;
   font-size: 1.5rem;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .area-container ol {
@@ -142,14 +142,14 @@ header button {
 }
 
 .btn-convert {
-  padding: 0.5rem;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  scale: 0.9;
-  font-family: "Lexend", sans-serif;
-  cursor: pointer;
   background: #1090d8;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  padding: 0.5rem;
+  scale: 0.9;
 }
 
 #value {
@@ -157,9 +157,9 @@ header button {
 }
 
 .fa-solid {
+  color: darkred;
   font-size: 1.3rem;
   margin-left: 10px;
-  color: darkred;
 }
 
 .btn-cross {
@@ -168,13 +168,13 @@ header button {
 
 /* Blog Styles */
 .blogs {
-  width: 90%;
   margin: 2rem auto;
+  width: 90%;
 }
 .blogs h1 {
-  text-align: center;
-  opacity: 0.9;
   margin-bottom: 1rem;
+  opacity: 0.9;
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -207,16 +207,11 @@ header button {
 /* @media for mid-device (simple responsive) */
 @media screen and (min-width: 697px) and (max-width: 1280px) {
   main {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
   }
   .geometry-container {
-    display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
   }
   .area-container {
     margin: auto;
